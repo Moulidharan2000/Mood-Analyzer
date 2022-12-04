@@ -10,6 +10,6 @@ public class TestAnalyser {
 	@Test
 	public void test() {
 		
-		assertEquals("SAD" , new AnalyseandRespond().analyzeMood("I am in Sad Mood"));
+		assertEquals("HAPPY" , new AnalyseandRespond().analyzeMood("I am in Happy Mood"));
 	}
 }

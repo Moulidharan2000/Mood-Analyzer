@@ -5,11 +5,11 @@ public class AnalyseandRespond {
 	static String message ;
 	
 	public String analyzeMood(String message) {
-		if(message.contains("Sad")) {
-			return "SAD";
+		if(message.contains("Happy")) {
+			return "HAPPY";
 		}
 		else {
-			return "HAPPY";
+			return "SAD";
 		}
 	}
 	
