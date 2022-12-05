@@ -1,16 +1,24 @@
 package com.MoodAnalyzer;
 
 public class AnalyseandRespond {
-	
+
+	private String message;
+
+	public AnalyseandRespond() {
+	}
+
 	public AnalyseandRespond(String message) {
-		
-		if(message.contains("Happy")) {
-			System.out.println("Happy");
-		}
-		else {
-			System.out.println("SAD");
+		this.message = message;
+	}
+
+	public String analyseMood() {
+		try {
+			if (message.contains("sad"))
+				return "SAD";
+			else
+				return "HAPPY";
+		} catch (Exception e) {
+			return "HAPPY";
 		}
 	}
-	
-	
 }
