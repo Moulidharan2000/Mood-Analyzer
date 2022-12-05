@@ -1,7 +1,6 @@
 package com.MoodAnalyzer;
 
 public class AnalyseandRespond {
-
 	public String message;
 
 	public AnalyseandRespond(String message) {
